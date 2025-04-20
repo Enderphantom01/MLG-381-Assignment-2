@@ -1,0 +1,12 @@
+flask
+scikit-learn
+joblib
+pandas
+joblib
+
+
+#pip install -r requirements.txt
+
+#python app.py
+
+
