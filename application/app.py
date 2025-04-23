@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load the model
 notebook_path = Path().resolve()
-model_path = notebook_path.parent / "model" / 'churn_model.pkl'
+model_path = notebook_path.parent / "MLG-381-Assignment-2" / "model" / 'churn_model.pkl'
 model = joblib.load(model_path)
 
 @app.route('/')
